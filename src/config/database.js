@@ -9,9 +9,9 @@ const { Pool } = pg;
 //     password: process.env.projetC_DB_PASSWORD,
 //     port: process.env.projectC_DB_PORT,
 // });
-// 
+//
 // pool.on('error', (err) => {
 //     console.log('Unexpected error on client', err);
 // });
-// 
+//
 // export default { query: (text, params) => pool.query(text, params) };
